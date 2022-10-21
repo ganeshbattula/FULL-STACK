@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function display()
+{
+a=parseFloat(document.getElementsByClassName("t1")[0].value);
+b=parseFloat(document.getElementsByClassName("t1")[1].value);
+c=a+b;
+document.getElementsByClassName("t1")[2].value=c;
+}
+</script>
+</head>
+<body>
+
+<input type= "text" class="t1 t2"/><br>
+<input type= "text" class="t1 t3"/><br>
+<input type= "text" class="t1"/><br>
+<input type="button" value="click" onclick="display()">
+
+</body>
+</html>

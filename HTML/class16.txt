@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Class14</title>
+</head>
+<body>
+<h1 align="center">Table</h1></center>
+<center><table border="2" cellpadding="10" cellspacing="15">
+
+<tr><td>4757</td><td>Ganesh</td><td>one lakh</td><td>90k</td></tr>
+<thead><th>EMp.no</th><th>Emp.Name</th><th>Emp.Salary</th><th>net salary</th></thead>
+<tr><td>4758</td><td>Umesh</td><td>one and half lakh</td><td>1.30k</td></tr>
+<tfoot><th>number</th><th>emp</th><th>generated</th><th>paid</th></tfoot>
+<tr><td>4759</td><td>Soumya</td><td>two lakhs</td><td>1.90k</td></tr>
+</table></center>

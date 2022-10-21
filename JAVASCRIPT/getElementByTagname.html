@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function display()
+{
+a=parseFloat(document.getElementsByTagName("input")[0].value);
+b=parseFloat(document.getElementsByTagName("input")[1].value);
+c=a+b;
+document.getElementsByTagName("input")[2].value=c;
+}
+</script>
+</head>
+<body>
+
+<input type= "text" /><br>
+<input type= "text" /><br>
+<input type= "text" /><br>
+<input type="button" value="click" onclick="display()">
+
+</body>
+</html>

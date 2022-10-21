@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+function display()
+{
+try{
+
+a=10;
+b=10;
+c=a/d;
+document.write(c);
+}
+catch(obj)
+{
+alert('please try again');
+console.log(obj);
+console.error(obj);
+}
+finally{
+alert('end of program');
+}
+
+}
+</script>
+</head>
+<body>
+<input type="button" value="click" onclick="display()">
+</body>
+</html>

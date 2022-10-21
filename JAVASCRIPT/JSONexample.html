@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+function display()
+{
+a='[{"name":"ganesh", "salary":"30000"},{"name":"harshini","salary":"40000"}]';
+b=JSON.parse(a);
+for(i=0;i<b.length;i++)
+document.write(b[i].name+" "+b[i].salary+'<br>');
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="get it" onclick="display()">
+</body>
+</html>

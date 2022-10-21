@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+#text {color:brown}
+</style>
+</head>
+<body>
+
+<h1>CHANGE THE HTML CONTENT</h1>
+<h2 id="hcontent">Hello Guest!</h2>
+<h3> Welcome to Java Script</h3>
+<button type="button" onclick='document.getElementById("hcontent").innerHTML="Hello Ganesh!"'>Ganesh</button>
+<button type="button" onclick='document.getElementById("hcontent").innerHTML="Hello Battula!"'>Battula</button><br><br>
+
+
+<h1>CHANGE IN ATTRIBUTES</h1>
+<img id="image" src="Red.jpg" width="100" height="100"><br><br>
+<button type="button" onclick='document.getElementById("image").src="Green.jpg"'>Green</button>
+<button type="button" onclick='document.getElementById("image").src="Blue.jpg"'>Blue</button>
+<button type="button" onclick='document.getElementById("image").src="Red.jpg"'>Red</button>
+
+<h1>CHANGE IN CSS</h1>
+<h2 id="text">Introduction to Java Script</h2>
+<button type="button" onclick='document.getElementById("text").style.color="green"'>Green</button>
+<button type="button" onclick='document.getElementById("text").style.color="blue"'>Blue</button>
+
+<h1>HIDE AND DISPLAY CONTENT</h1>
+<h2 id="hidedisplay"> This will demonstrate the hiding and displaying the content</h2>
+<button type="button" onclick='document.getElementById("hidedisplay").style.display="none"'>Hide</button>
+<button type="button" onclick='document.getElementById("hidedisplay").style.display="block"'>Display</button>
+
+</body>
+</html>

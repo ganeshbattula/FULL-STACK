@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function display()
+{
+a=document.getElementById("20");
+b=document.createElement("input");
+b.setAttribute("type","text");
+
+b.setAttribute("id","g1");
+a.appendChild(b);
+}
+function removeElement()
+{
+a=document.getElementById("20");
+b=document.getElementById("g1");
+a.removeChild(b);
+}
+</script>
+</head>
+<body>
+<div id="20"></div><br>
+<input type="button" value="add" onclick="display()">
+<input type="button" value="remove" onclick="removeElement()">
+
+</body>
+</html>
